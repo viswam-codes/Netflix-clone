@@ -27,7 +27,7 @@ nav{
     width: 150px;
     cursor: pointer;
 }
-nav button{
+.navbar button{
     border: 0;
     outline: 0;
     background: #db0001;
@@ -231,4 +231,37 @@ label::after{
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .logo{
+        width:100px
+    }
+    .btn{
+        padding: 5px 10px :
+    }
+    .language-btn{
+        padding: 4px 8px;
+    }
+    .header-txt h1{
+         font-size: 30px;
+    }
+    .
+    .txt-cl h2{
+        font-size: 30px;
+    }
+    .faq h2{
+        font-size: 20px;
+    }
+    .accordian .content{
+        font-size: 14px;
+    }
+    .acordian li label{
+        padding: 10px;
+        font-size: 14px;
+    }
+    label::after{
+        font-size: 22px;
+    }
+   
 }
